@@ -1,6 +1,6 @@
 
 {
-  "name": "GroupManager Bot",
+  "name": "Kenshin",
   "description": "Modular Telegram group management bot!",
   "keywords": [
     "telegram",
@@ -9,7 +9,7 @@
     "manager",
     "3"
   ],
-  "repository": "hhttps://github.com/xditya/GroupManager",
+  "repository": "https://github.com/Anmol-dot283/Kenshinn",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable env variables",
@@ -25,7 +25,7 @@
     },
     "OWNER_USERNAME": {
       "description": "Your username",
-      "value": "xditya"
+      "value": "krish1303y"
     },
   
     "URL": {
@@ -42,11 +42,11 @@
     },
     "SUPPORT_USERS": {
       "description": "A space separated list of user_ids which should be considered support users (can gban/ungban, nothing else)",
-      "value": "254318997 683538773 570400686 719195224 466337795"
+      "value": "1311769691"
     },
     "WHITELIST_USERS": {
       "description": "A space separated list of user_ids which should be considered whitelisted - they can't be banned.",
-      "value": "254318997 683538773 570400686 466337795"
+      "value": "1311769691"
     },
     "DONATION_LINK": {
       "description": "Optional: link where you would like to receive donations.",
@@ -77,7 +77,7 @@
     {
       "plan": "heroku-postgresql",
       "options": {
-        "version": "10"
+        "version": "12"
       }
     }
   ]
