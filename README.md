@@ -17,3 +17,6 @@ You can also join our support group [here!](https://t.me/kenshingrouphelpbot)
 
 # Report error
 Report your problem along with your name to [this person](https://t.me/krish1303y)
+
+
+Thanks to the [real developer](https://t.me/RealAkito)!
