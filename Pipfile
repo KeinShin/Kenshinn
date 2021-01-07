@@ -1,0 +1,35 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+future = "*"
+emoji = "*"
+requests = "*"
+python-telegram-bot = "==11.1.0"
+psycopg2 = "*"
+feedparser = "*"
+pythonping = "*"
+pynewtonmath = "*"
+spongemock = "*"
+zalgo-text = "*"
+geopy = "*"
+nltk = "*"
+aiohttp = ">=2.2.5"
+"hurry.filesize" = "*"
+googletrans = "*"
+tldextract = "*"
+pyowm = "*"
+wikipedia = "*"
+bleach = "*"
+markdown2 = "*"
+SQLAlchemy = "*"
+Pillow = ">=4.2.0"
+PyLyrics = "*"
+PyYAML = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"

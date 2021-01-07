@@ -10,12 +10,12 @@ class Config(object):
     LOGGER = True
 
     # REQUIRED
-    API_KEY = "YOUR KEY HERE"
-    OWNER_ID = "YOUR ID HERE"  # If you dont know, run the bot and do /id in your private chat with it
-    OWNER_USERNAME = "YOUR USERNAME HERE"
+    API_KEY = "1430367736:AAF2nPGPvddPzNIbuPbMx8BhRnW_dBwoHJo"
+    OWNER_ID = "1311769691"  # If you dont know, run the bot and do /id in your private chat with it
+    OWNER_USERNAME = "@krish1303y"
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = 'sqldbtype://username:pw@hostname:port/db_name'  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = 'postgres://lxutbmuwyhgbqv:pw@ec2-52-2-127-5.compute-1.amazonaws.com:port/d60h7v3ofk0i2h'  # needed for any database modules
     MESSAGE_DUMP = None  # needed to make sure 'save from' messages persist
     LOAD = []
     NO_LOAD = ['translation', 'sed']
