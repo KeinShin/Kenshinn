@@ -65,7 +65,7 @@ RUN apt update && apt upgrade -y && \
 RUN pip3 install --upgrade pip setuptools
 
 # Copy Python Requirements to /root/SaitamaRobot
-RUN git clone -b shiken https://github.com/KeinShin/Kenshinn /root/haruka
+RUN git clone -b master https://github.com/KeinShin/Kenshinn /root/haruka
 WORKDIR /root/haruka
 
 #Copy config file to /root/SaitamaRobot/SaitamaRobot
